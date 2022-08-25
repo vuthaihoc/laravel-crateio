@@ -93,6 +93,13 @@ return [
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
 
+        'crate' => array(
+            'driver'   => 'crate',
+            'host'     => 'localhost',
+            'database' => 'doc',
+            'port'     => 4200,
+        ),
+
     ],
 
     /*
